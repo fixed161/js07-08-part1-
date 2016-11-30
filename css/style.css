@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 600px;
+    height: 400px;
+    margin: 100px auto;
+    border: 1px solid #bbb;
+}
+
+.field {
+    width: 560px;
+    height: 250px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid #aaa;
+}
+
+.inputs {
+    clear: both;
+    text-align: right;
+    line-height: 45px;
+}
+
+label {
+    float: left;
+    padding-right: 10px;
+    font-family: arial, sans-serif;
+}
+
+.main {
+    float: left;
+}
+
+.tooltip{
+  display:none;
+  position:absolute;
+  border-radius:5px;
+  box-shadow:2px 2px 3px rgba(0,0,0,.2);
+  background-color:#CCC;
+  border:1px solid #F7F7F7;
+  text-shadow:-1px -1px 0 #F4F4F4;
+  color:#666;
+  font:bold  16px Tahoma, Geneva, sans-serif;
+  padding:10px;
+	}
